@@ -1,0 +1,29 @@
+1. displays a list of options that the user can take to execute program operations
+    a. each element will be displayed as "<n>. <option>"
+    b. n will start at 1 and increase as more elements are added
+    c. pressing 1-n will trigger that number's corrisponding option
+    d. the user can leave the menu by typeing 'exit'
+
+1. take in user input about the name of the service being signed up for, and the username for the login of said service
+
+2. generates a unique password with a length of 25 characters
+    a. password can consist of upper case, lower case, numbers, and select special characters
+    b. 'unique' means that no 2 accounts share the same password
+
+3. stores the username, name of service being signed up for, and password within a json file
+    a. the service will be used as a key to find the username and password of that specific service
+
+4. user will be able to look up accounts by service name
+    a. has the option of seeing all services stored on file displayed to the user by service name)
+        1. will be displayed as a list
+        2. each item in the list will be formatted as "<n>. <service name>"
+            a. where <n> is the number of the element
+            b. <n> starts at 1 and increase with each element
+        3. user can enter a number between 1-n to pick the desired accounts
+        4. to exit this type of account lookup option the user can type 'exit'
+
+5. user will be able to delete specific accounts
+    a. will enter the service name to decide which account will be removed
+        1. if the account is not found, alert the user and allow them to leave by typeing 'exit' or pick another account
+
+6. will load in already saved account from the json object into memory
