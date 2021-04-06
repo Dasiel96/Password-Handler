@@ -3,6 +3,7 @@
     b. n will start at 1 and increase as more elements are added
     c. pressing 1-n will trigger that number's corrisponding option
     d. the user can leave the menu by typeing 'exit'
+    e. the user will be prompted to give a valid integer input again if a valid input was not given
 
 1. take in user input about the name of the service being signed up for, and the username for the login of said service
 

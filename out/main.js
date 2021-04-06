@@ -11,3 +11,4 @@ const MENU = new Menu_1.Menu();
 MENU.AddOption("print hello world", HelloWorld);
 MENU.AddOption("print hello sun", HelloSun);
 MENU.DisplayMenu();
+MENU.Input();
